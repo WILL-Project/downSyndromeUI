@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name" translatable="false">downSyndromeUI</string>
+
+
+    <!--lOGIN SCREEN -->
+    <string name="login" translatable="false">Login</string>
+    <string name="register" translatable="false">Register</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="remeberme" translatable="false">Remeber me</string>
+
+
+    <!-- REGISTER SCREEN -->
+    <string name="Title" translatable="false">Please fill in your childs information</string>
+    <string name="name" translatable="false"> Name</string>
+    <string name="surname" translatable="false">Surname</string>
+    <string name="usernameRegister" translatable="false">Username</string>
+    <string name="age" translatable="false">Age</string>
+    <string name="Password" translatable="false">Password</string>
+    <string name="rePassword" translatable="false">Re - enter password</string>
+    <string name="titleParent" translatable="false">Please fill in your information</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="nameParent" translatable="false">Name</string>
+    <string name="surnameParent" translatable="false">Surname</string>
+    <string name="cancelTitle" translatable="false">Cancel</string>
+    <string name="submitTitle" translatable="false">Submit</string>
+
+    <!-- DASHBOARD SCREEN -->
+
+    <string name="titleLearn" translatable="false">What would you like to learn today</string>
+    <string name="titleTests" translatable="false">Here are some tests that you can take</string>
+    <string name="galleryTitle" translatable="false">Open family album</string>
+    <string name="LogOut" translatable="false">Settings</string>
+    <string name="Settings" translatable="false">Log Out</string>
+
+    <!-- Image caption values -->
+
+    <string name = "colorsandshapes">Colours and Shapes</string>
+    <string name = "animals">Animals</string>
+    <string name = "pronouns">Pronouns</string>
+    <string name = "sentences">Sentences</string>
+    <string name = "numbers">Numbers</string>
+    <string name = "Science">Science</string>
+    <string name = "words">Words</string>
+    <string name = "PlaceHolder">Placeholder</string>
+    <string name = "lifeskills">Life Skills</string>
+    <string name = "Puzzless">Puzzles</string>
+
+
+
+
+</resources>
