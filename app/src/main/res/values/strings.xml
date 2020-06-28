@@ -35,18 +35,16 @@
 
     <!-- Image caption values -->
 
-    <string name = "colorsandshapes">Colours and Shapes</string>
-    <string name = "animals">Animals</string>
-    <string name = "pronouns">Pronouns</string>
-    <string name = "sentences">Sentences</string>
-    <string name = "numbers">Numbers</string>
-    <string name = "Science">Science</string>
-    <string name = "words">Words</string>
-    <string name = "PlaceHolder">Placeholder</string>
-    <string name = "lifeskills">Life Skills</string>
-    <string name = "Puzzless">Puzzles</string>
-
-
+    <string name="colorsandshapes">Colours and Shapes</string>
+    <string name="animals">Animals</string>
+    <string name="pronouns">Pronouns</string>
+    <string name="sentences">Sentences</string>
+    <string name="numbers">Numbers</string>
+    <string name="Science">Science</string>
+    <string name="words">Words</string>
+    <string name="PlaceHolder">Placeholder</string>
+    <string name="lifeskills">Life Skills</string>
+    <string name="Puzzless">Puzzles</string>
 
 
 </resources>
