@@ -96,6 +96,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="8dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -104,7 +106,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_test" />
 
                 <ImageView
                     android:id="@+id/imageView12"
@@ -114,6 +116,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="8dp"
+                    android:background="#FFFDFD"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -122,7 +126,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/imageView11"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_test" />
 
                 <TextView
                     android:id="@+id/textView14"
@@ -174,6 +178,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toTopOf="@+id/imageView4"
@@ -192,6 +197,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toTopOf="@+id/imageView"
@@ -200,7 +206,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView2"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_words" />
 
                 <ImageView
                     android:id="@+id/imageView5"
@@ -210,6 +216,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toTopOf="@+id/imageView2"
@@ -218,7 +225,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView6"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_pronouns" />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -227,6 +234,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toTopOf="@+id/imageView5"
@@ -235,7 +243,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_shapes" />
 
                 <ImageView
                     android:id="@+id/imageView7"
@@ -244,6 +252,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toTopOf="@+id/imageView8"
@@ -252,7 +261,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/imageView6"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_animals" />
 
                 <ImageView
                     android:id="@+id/imageView8"
@@ -262,6 +271,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:backgroundTintMode="src_over"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
@@ -271,7 +281,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/imageView5"
                     app:layout_constraintTop_toBottomOf="@+id/imageView7"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_sentences" />
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -281,6 +291,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toTopOf="@+id/imageView9"
@@ -289,7 +300,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/imageView2"
                     app:layout_constraintTop_toBottomOf="@+id/imageView8"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_science" />
 
                 <ImageView
                     android:id="@+id/imageView4"
@@ -300,6 +311,7 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -308,7 +320,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/imageView"
                     app:layout_constraintTop_toBottomOf="@+id/imageView9"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_puzzles" />
 
                 <ImageView
                     android:id="@+id/imageView"
@@ -319,6 +331,7 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -327,7 +340,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView10"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_lifeskills" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -337,6 +350,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/image_frame"
+                    android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
                     android:foreground="@drawable/image_frame"
                     app:layout_constraintBottom_toTopOf="@+id/imageView10"
@@ -345,7 +359,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView5"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/ic_numbers" />
 
                 <TextView
                     android:id="@+id/textView17"

@@ -19,16 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
-
-
-
-
         setContentView(R.layout.activity_main);
-
-
-
-
 
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -41,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(MainActivity.this , Dashboard.class);
+                Intent a = new Intent(MainActivity.this , FlashCards.class);
                 startActivity(a);
 
 
