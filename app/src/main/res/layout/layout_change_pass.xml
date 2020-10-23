@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/txtStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whote_expermental_background">
+
+    <TextView
+        android:id="@+id/textView30"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pickalang"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline47"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rbLanguages"
+        android:layout_width="334dp"
+        android:layout_height="515dp"
+        android:background="@drawable/generic_edit"
+        app:layout_constraintBottom_toTopOf="@+id/guideline49"
+        app:layout_constraintEnd_toStartOf="@+id/guideline48"
+        app:layout_constraintStart_toStartOf="@+id/guideline47"
+        app:layout_constraintTop_toTopOf="@+id/guideline50">
+
+        <RadioButton
+            android:id="@+id/rbAfrikaans"
+            style="@style/txtStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afrikaans"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/rbEnglish"
+            style="@style/txtStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English "
+            android:textSize="36sp" />
+
+    </RadioGroup>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05109489" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9270073" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88235295" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.11764706" />
+</androidx.constraintlayout.widget.ConstraintLayout>

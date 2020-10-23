@@ -42,7 +42,7 @@
         android:background="@drawable/yellow_button_dark"
         android:elevation="20dp"
         android:fontFamily="@font/montserrat_alternates"
-        android:text="Login"
+        android:text="@string/login"
         android:textAllCaps="false"
         android:textSize="20sp"
         android:textStyle="bold"

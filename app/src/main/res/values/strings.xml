@@ -1,37 +1,39 @@
 <resources>
-    <string name="app_name" translatable="false">downSyndromeUI</string>
+    <string name="app_name">downSyndromeUI</string>
 
+    <!--General Usage -->
+    <string name="bckBtn">Back</string>
 
     <!--lOGIN SCREEN -->
-    <string name="login" translatable="false">Login</string>
-    <string name="register" translatable="false">Register</string>
-    <string name="username" translatable="false">Username</string>
-    <string name="password" translatable="false">Password</string>
-    <string name="remeberme" translatable="false">Remeber me</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remeberme">Remeber me</string>
 
 
     <!-- REGISTER SCREEN -->
-    <string name="Title" translatable="false">Please fill in your childs information</string>
-    <string name="name" translatable="false"> Name</string>
-    <string name="surname" translatable="false">Surname</string>
-    <string name="usernameRegister" translatable="false">Username</string>
-    <string name="age" translatable="false">Age</string>
-    <string name="Password" translatable="false">Password</string>
-    <string name="rePassword" translatable="false">Re - enter password</string>
-    <string name="titleParent" translatable="false">Please fill in your information</string>
-    <string name="email" translatable="false">Email</string>
-    <string name="nameParent" translatable="false">Name</string>
-    <string name="surnameParent" translatable="false">Surname</string>
-    <string name="cancelTitle" translatable="false">Cancel</string>
-    <string name="submitTitle" translatable="false">Submit</string>
+    <string name="Title">Please fill in your childs information</string>
+    <string name="name"> Name</string>
+    <string name="surname">Surname</string>
+    <string name="usernameRegister">Username</string>
+    <string name="age">Age</string>
+    <string name="Password">Password</string>
+    <string name="rePassword">Re - enter password</string>
+    <string name="titleParent">Please fill in your information</string>
+    <string name="email">Email</string>
+    <string name="nameParent">Name</string>
+    <string name="surnameParent">Surname</string>
+    <string name="cancelTitle">Cancel</string>
+    <string name="submitTitle">Submit</string>
 
     <!-- DASHBOARD SCREEN -->
 
-    <string name="titleLearn" translatable="false">What would you like to learn today</string>
-    <string name="titleTests" translatable="false">Here are some tests that you can take</string>
-    <string name="galleryTitle" translatable="false">Open family album</string>
-    <string name="LogOut" translatable="false">Settings</string>
-    <string name="Settings" translatable="false">Log Out</string>
+    <string name="titleLearn">What would you like to learn today</string>
+    <string name="titleTests">Here are some tests that you can take</string>
+    <string name="galleryTitle">Open family album</string>
+    <string name="LogOut">Settings</string>
+    <string name="Settings">Log Out</string>
 
     <!-- Image caption values -->
 
@@ -46,5 +48,21 @@
     <string name="lifeskills">Life Skills</string>
     <string name="Puzzless">Puzzles</string>
 
+
+    <!--Settings screen -->
+
+    <string name ="settingdtitile" > Settings</string>
+    <string name="settingchangeparentsemail">Change Parents Email</string>
+    <string name ="settingchnageusername">Change your Username</string>
+    <string name ="settingpassword">Change your password</string>
+    <string name ="settingchangeprefereclanguage">Change your prefered language</string>
+    <string name ="settingstatistics">See Statistics</string>
+    <string name ="changeFont">Change Font - size</string>
+    <string name ="settingRepeort">Report a bug or post a complaint</string>
+    <string name ="settingPost">Post</string>
+    <string name ="settingadd" translatable="false">+</string>
+    <string name ="settingminus" translatable="false">-</string>
+<!-- Change User Dialog-->
+    <string name ="pickalang" >Pick a language</string>
 
 </resources>

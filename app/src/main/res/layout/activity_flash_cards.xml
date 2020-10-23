@@ -215,7 +215,7 @@
         android:gravity="center"
         android:paddingLeft="5dp"
         android:paddingRight="15dp"
-        android:text="Back"
+        android:text="@string/bckBtn"
         android:textAllCaps="false"
         android:textColor="@color/MainGrey"
         android:textSize="18sp"
